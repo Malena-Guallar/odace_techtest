@@ -1,15 +1,26 @@
+.registration_bar {
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+    justify-content: center;
+}
+
 input {
+    flex: 1 0 20rem;
     border: none;
-    border-right: none;
-    border-radius: 10px 0 0 10px;
-    padding: 10px;
+    border-radius: 12px 0 0 12px;
+    padding: .6rem 1rem;
+    /* width: 15rem; */
+    font-size: .7rem;
 }
 
 button {
+    flex: 1 0 8rem;
     border: none;
-    border-left: none;
-    border-radius: 0 10px 10px 0;
-    padding: 10px;
+    border-radius: 0 12px 12px 0;
+    padding: .6rem 1rem;
+    /* width: 8rem; */
     background: linear-gradient(to right, var(--color-violette), var(--color-mauve));
     color: var(--color-white);
+    font-size: .7rem;
 }

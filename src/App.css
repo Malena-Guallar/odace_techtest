@@ -34,3 +34,11 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+
+.text_header {
+    font-weight: 300;
+    width: 25rem;
+    max-width: 100%;
+    line-height: 1.8rem;
+    margin-bottom: 4em;
+}
