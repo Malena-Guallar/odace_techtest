@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 html {
-    background: linear-gradient(#461E58, #0F0F0F, #461E58);
-    color: #F4F3F5;
-    font-family: "Roboto";
-    font-weight: 400
+    --color-aubergine: #461E58;
+    --color-black: #0F0F0F;
+    --color-white: #F4F3F5;
+    --color-purple: #9E4BD5;
+    --color-lilac: #BD54CF;
+    --color-violette: #8B4FEE;
+    --color-mauve: #C75AD1;
+    background: linear-gradient(var(--color-aubergine), var(--color-black), var(--color-aubergine));
+    color: var(--color-white);
+    /* font-family: "Roboto";
+    font-weight: 400 */
 }
 
-
-
-/////// FONTS ///////
 
 @font-face {
     font-family: "ClashDisplay-Bold"; 
@@ -52,4 +56,3 @@ html {
     font-weight: 700;
     font-style: normal;
 }
-

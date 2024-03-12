@@ -4,9 +4,9 @@ import RegistrationBar from './components/RegistrationBar/RegistrationBar'
 function App() {
 
   return (
-    <div class="app">
-      <h4>odace +</h4>
-      <h1>The new standard to create social media video content</h1>
+    <div className="app">
+      <p className="app_name">odace+</p>
+      <p className='app_header'>The new standard to <span class="purple_word">create</span> social media <span class="purple_word">video content</span></p>
       <p>Combining top creatives with best-in-class AI solutions to help you produce high quality videos. You imagine. We do the rest.</p>
       <RegistrationBar />
     </div>

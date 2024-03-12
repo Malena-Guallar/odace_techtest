@@ -1,11 +1,36 @@
 .app {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+  font-family: "Roboto";
 }
 
-h4, h1, p {
-    text-align: center;
+.app_name {
+  font-family: "ClashDisplay-Semibold";
+  font-size: 1.5rem;
+}
+
+.app_header {
+  font-family: "ClashDisplay-Medium";
+  font-size: 3rem;
+  width: 40rem;
+  max-width: 100%;
+}
+
+.purple_word {
+  background-image: linear-gradient(
+    45deg,
+    var(--color-purple),
+    var(--color-lilac)
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
