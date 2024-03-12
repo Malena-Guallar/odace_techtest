@@ -10,8 +10,8 @@ html {
     --color-mauve: #C75AD1;
     background: linear-gradient(var(--color-aubergine), var(--color-black), var(--color-aubergine));
     color: var(--color-white);
-    /* font-family: "Roboto";
-    font-weight: 400 */
+    font-family: "Roboto";
+    font-weight: 400
 }
 
 

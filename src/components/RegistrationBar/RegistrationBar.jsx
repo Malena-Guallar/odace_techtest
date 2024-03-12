@@ -3,10 +3,10 @@ import './RegistrationBar.css'
 function RegistrationBar() {
     return (
 
-        <div class="registration_bar">
+        <form class="registration_bar">
             <input placeholder="Your email" />
             <button>Pre-register</button>
-        </div>
+        </form>
     )
 
 }

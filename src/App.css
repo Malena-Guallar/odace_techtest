@@ -36,9 +36,18 @@
 }
 
 .text_header {
-    font-weight: 300;
-    width: 25rem;
-    max-width: 100%;
-    line-height: 1.8rem;
-    margin-bottom: 4em;
+  font-weight: 300;
+  width: 25rem;
+  max-width: 100%;
+  line-height: 1.8rem;
+  margin-bottom: 4em;
 }
+
+.separation_line {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 300px;
+    height: 2px;    
+    background: linear-gradient(90deg, #0F0F0F 0%, #9E4BD5 33.33%, #9E4BD5 66.67%, #0F0F0F 100%);
+}
+
