@@ -14,8 +14,14 @@ function App() {
       <div className='separation_line'/>
       <Caroussel />
       <Block 
-        height={"100px"}
-        text={"blablabla"}/>
+        height={"fit-content"}
+        text={"script to video \n social media trends \n long video to short \n video creator worldwide \n automatic subtitles \n \n what you need, we do"}
+        width={"90%"}
+        padding={"5% 0"}
+        fontSize={"1.5rem"}
+        fontFamily={"ClashDisplay-Regular"}
+        classN={"gradient"}
+        />
     </div>
   )
 }

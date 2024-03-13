@@ -10,7 +10,7 @@ html {
     --color-mauve: #C75AD1;
     --color-grey: #232323;
     --color-mouse: #5c5b5b;
-    background: linear-gradient(var(--color-aubergine), var(--color-black), var(--color-aubergine));
+    background: linear-gradient(var(--color-aubergine) 10%, var(--color-black), var(--color-aubergine));
     color: var(--color-white);
     font-family: "Roboto";
     font-weight: 400
