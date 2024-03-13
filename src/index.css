@@ -8,6 +8,8 @@ html {
     --color-lilac: #BD54CF;
     --color-violette: #8B4FEE;
     --color-mauve: #C75AD1;
+    --color-grey: #232323;
+    --color-mouse: #5c5b5b;
     background: linear-gradient(var(--color-aubergine), var(--color-black), var(--color-aubergine));
     color: var(--color-white);
     font-family: "Roboto";

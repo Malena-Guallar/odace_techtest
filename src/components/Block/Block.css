@@ -1,0 +1,5 @@
+.block {
+    background-color: var(--color-grey);
+    border: solid 0.1px var(--color-mouse);
+    border-radius: 10px;
+}

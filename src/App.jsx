@@ -1,6 +1,7 @@
 import './App.css'
 import RegistrationBar from './components/RegistrationBar/RegistrationBar'
-import Caroussel from './components/RegistrationBar/Caroussel/Caroussel'
+import Caroussel from './components/Caroussel/Caroussel'
+import Block from './components/Block/Block'
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
       <RegistrationBar />
       <div className='separation_line'/>
       <Caroussel />
+      <Block 
+        height={"100px"}
+        text={"blablabla"}/>
     </div>
   )
 }
